@@ -1,0 +1,12 @@
+pandas
+numpy
+scikit-learn
+mlflow
+dvc[s3]
+boto3
+fastapi
+uvicorn
+joblib
+pyyaml
+pytest
+httpx
