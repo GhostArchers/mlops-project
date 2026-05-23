@@ -30,7 +30,7 @@ with mlflow.start_run():
 
     search = RandomizedSearchCV(
         GradientBoostingRegressor(random_state=random_state),
-        param_dist, n_iter=20, cv=5,
+        param_dist, n_iter=25, cv=5,
         random_state=random_state, n_jobs=-1
     )
     search.fit(X_train, y_train)
