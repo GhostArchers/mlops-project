@@ -2,7 +2,8 @@ pandas
 numpy
 scikit-learn
 mlflow
-boto3
+dvc
+dvc-s3
 fastapi
 uvicorn
 joblib
