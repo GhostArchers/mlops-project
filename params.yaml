@@ -1,5 +1,5 @@
 prepare:
-  test_size: 0.25
+  test_size: 0.26
   random_state: 42
   feature_percentile: 100
 
